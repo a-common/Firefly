@@ -243,19 +243,10 @@ export default defineConfig({
 				if (pathname === "/booknav/" && !siteConfig.pages.booknav) {
 					return false;
 				}
-				if (pathname === "/sponsor/" && !siteConfig.pages.sponsor) {
-					return false;
-				}
 				if (pathname === "/guestbook/" && !siteConfig.pages.guestbook) {
 					return false;
 				}
-				if (pathname === "/bangumi/" && !siteConfig.pages.bangumi) {
-					return false;
-				}
 				if (pathname === "/gallery/" && !siteConfig.pages.gallery) {
-					return false;
-				}
-				if (pathname === "/anime/" && !siteConfig.pages.anime) {
 					return false;
 				}
 
