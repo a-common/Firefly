@@ -55,11 +55,19 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		{
 			// 图标文件路径
-			src: "/favicon/firefly-32.png",
+			src: "/favicon/light.png",
 			// 可选，指定主题 'light' | 'dark'
-			// theme: "light",
+			theme: "light",
 			// 可选，图标大小
-			// sizes: "32x32",
+			sizes: "32x32",
+		},
+		{
+			// 图标文件路径
+			src: "/favicon/dark.png",
+			// 可选，指定主题 'light' | 'dark'
+			theme: "dark",
+			// 可选，图标大小
+			sizes: "32x32",
 		},
 	],
 
